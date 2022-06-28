@@ -11,7 +11,7 @@ public class ClientTransfer {
         try{
 
             // Arquivo que desejamos enviar
-            File arquivoEnviar = new File("./arquivos_p_transferir/planilha_entrada.csv");
+            File arquivoEnviar = new File("./arquivos_p_transferir/video_pequeno.mp4");
 
             // Stream do arquivo de entrada usando caminho absoluto
             FileInputStream streamEntrada = new FileInputStream(arquivoEnviar.getAbsolutePath());

@@ -1,0 +1,3 @@
+Nesse diretório vamos criar uma parte funcional do projeto final. Aqui vamos criar um serviço que lê os arquivos de uma pasta do computador, salva essa lista numa variável e envia essa variável para um outro peer através de comunicação UDP.
+
+A ideia é que o `user_1` envie através de UDP o nome de todos os arquivos contidos na pasta `pasta_arquivos` para o `user_2` e que essa lista de arquivos apareça na tela do `user_2`. Assim, o `user_1` seria como um cliente que quer enviar a lista de seus arquivos enquanto o `user_2` é o servidor que recebe essa informação.

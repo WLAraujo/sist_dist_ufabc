@@ -1,0 +1,15 @@
+services:
+  user1:
+    image: ambiente_java
+    container_name: user1
+    hostname: user1
+    tty: true
+    ports:
+      - "8000:8000"
+  user2:
+    image: ambiente_java
+    container_name: user2
+    hostname: user2
+    tty: true
+    ports:
+      - "9000:9000"

@@ -1,0 +1,20 @@
+services:
+  user1:
+    image: ambiente_java
+    container_name: user1
+    hostname: user1
+    tty: true
+    ports:
+      - "8050:8051"
+    volumes:
+      - ./codigos/user1:/codigos
+
+  user2:
+    image: ambiente_java
+    container_name: user2
+    hostname: user2
+    tty: true
+    ports:
+      - "8051:8051"
+    volumes:
+      - ./codigos/user2:/codigos
